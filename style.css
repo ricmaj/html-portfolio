@@ -1,0 +1,84 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+  
+  }
+
+  body{ 
+    min-height: 100vh;
+   background-color: rgb(47, 16, 223);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   position: relative;
+   }
+
+   .container{ 
+    min-height: 50vh;
+    padding: 25px;
+    background-color: rgb(47, 16, 223);
+ display: flex;                  
+    
+   justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;  
+    align-items: flex-end;    
+    margin-left: 20px;
+    <br>
+  }
+
+  .container p{ 
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+  }
+  nav { 
+
+    background-color: rgb(226, 238, 245);
+   height: 40;
+    padding: 15;
+    display: flex;
+    
+    }
+    nav ul li{ 
+     
+      list-style: none; 
+      text-decoration: none;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         color: rgba(5, 37, 54, 0.003)
+         display: block;
+         font-size: 40px;
+         padding: 0px;
+         margin: 0px;
+      
+      }
+    
+    
+      nav ul li a{ 
+        
+        }
+    
+
+
+
+
+          li a{ 
+            background-color: black;   
+            flex-basis: 100px;        
+            }
+
+          li a{ 
+            text-decoration: none;
+             color: white;
+             font-size: 18px;             
+            }
+
+            li a:hover{ 
+                color: rgb(192, 153, 45);
+              }
+              li .active{ 
+                color: rgb(192, 153, 45);
+              }
+  
+              li:first-child{ 
+                margin-right: auto;
+                
+              }
